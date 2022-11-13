@@ -5,9 +5,9 @@ const Navbar = () =>{
     return(
         <navbar className="">
             <div className="flex p-2 items-center pr-16 pl-16">
-                <div className="p-2 font-bold">Find Your Belongings</div>
+                <div className="p-2 font-bold cursor-pointer">Find Your Belongings</div>
                 <div className="flex-1"></div>
-                <div className="flex pr-8">
+                <div className="flex pr-8 cursor-pointer">
                     <div className="font-medium text-xl p-2 pl-7 pr-7">
                         Home
                     </div>

@@ -6,7 +6,7 @@ const About = () => {
     return (
         <div>
             <div className="relative">
-              <div className="absolute top-0"><Navbar/></div>
+              <div className="absolute w-full"><Navbar/></div>
                 <div className="absolute flex justify-center items-center text-6xl text-black font-bold  w-full h-full">
                     About
                 </div>
