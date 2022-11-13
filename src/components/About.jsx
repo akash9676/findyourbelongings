@@ -15,9 +15,9 @@ const About = () => {
                 </div>
                 <img className="h-96 w-screen" src={aboutBgPic}></img>
             </div>
-            <div className="flex mt-24 p-14 mx-96">
+            <div className="lg:flex mt-24 p-14 sm:mx-20 2xl:mx-96">
                 <div className="flex-1">
-                    <div className="text-2xl font-bold">
+                    <div className="mb-5 sm:mb-5 text-2xl font-bold">
                         established in 1995
                     </div>
                 </div>
@@ -50,8 +50,8 @@ const About = () => {
                 </div>
             </div>
             <div className="bg-amber-100">
-                <div className="flex mx-96">
-                    <div className="p-14 flex-1">
+                <div className="sm:grid sm:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 lg:mx-52">
+                    <div className="p-14">
                         <div className="text-2xl font-bold mb-5">Mission</div>
                         <div>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -59,7 +59,7 @@ const About = () => {
                             pulvinar dapibus leo.
                         </div>
                     </div>
-                    <div className="p-14 flex-1">
+                    <div className="p-14">
                         <div className="text-2xl font-bold mb-5">Vision</div>
                         <div>
                             Lorem ipsum dolor sit amet, consectetur adipiscing
@@ -67,7 +67,7 @@ const About = () => {
                             pulvinar dapibus leo.
                         </div>
                     </div>
-                    <div className="p-14 flex-1">
+                    <div className="p-14">
                         <div className="text-2xl font-bold mb-5">Values</div>
                         <div>
                             <li>Lorem ipsum dolor sit amet</li>
@@ -77,7 +77,9 @@ const About = () => {
                     </div>
                 </div>
             </div>
-            <div><Footer/></div>
+            <div>
+                <Footer />
+            </div>
         </div>
     );
 };
