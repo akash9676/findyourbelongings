@@ -9,7 +9,7 @@ const Navbar = () =>{
                 <div className='flex-1'></div>
                 <div className='flex pr-8'>
                     <div className='font-medium text-xl p-4 pl-7 pr-7'>Home</div>
-                    <div className='font-medium text-xl p-4 pl-7 pr-7'>Profile</div>
+                    <div className='font-medium text-xl p-4 pl-7 pr-7'>About</div>
                     <div className='font-medium text-xl p-4 pl-7 pr-7'>Services</div>
                     <div className='font-medium text-xl p-4 pl-7 pr-7'>Contact</div>
                     <div className='font-medium text-xl p-4 pl-7 pr-7'>TAKE ACTION</div>  
