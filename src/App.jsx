@@ -4,17 +4,13 @@ import Navbar from "./components/Navbar";
 import About from "./components/About";
 
 export default function App() {
-  return (
-    <>
-      <Routes>
-        <Route path="/Navbar" element={<Navbar  />}/>
-        <Route path="/Footer" element={<Footer />}/>
-        <Route path="/About" element={<About  />}/>
-      </Routes>
-    </>
-  );
+    return (
+        <>
+            <Routes>
+                <Route path="/Navbar" element={<Navbar />} />
+                <Route path="/Footer" element={<Footer />} />
+                <Route path="/About" element={<About />} />
+            </Routes>
+        </>
+    );
 }
-
-
-
-
