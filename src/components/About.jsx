@@ -1,5 +1,5 @@
 import React from 'react'
-import aboutBgPic from "../assets/aboutBgPic.jpg"
+import aboutBgPic from "../assets/about-bg-pic.jpg"
 
 const About = () => {
   return (
