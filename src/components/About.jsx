@@ -5,7 +5,7 @@ const About = () => {
     return (
         <div>
             <div className="relative border-2 border-red-500">
-                <div className="absolute top-1/2 left-1/2 text-6xl text-black font-bold">About</div>
+                <div className="absolute flex justify-center items-center text-6xl text-black font-bold border-2 border-black w-full h-full">About</div>
                 <img
                     className="h-96 w-screen"
                     src={aboutBgPic}
