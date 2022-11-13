@@ -6,10 +6,10 @@ const About = () => {
     return (
         <div>
             <div className="relative">
-              <div className="absolute w-full"><Navbar/></div>
                 <div className="absolute flex justify-center items-center text-6xl text-black font-bold  w-full h-full">
                     About
                 </div>
+              <div className="absolute w-full"><Navbar/></div>
                 <img className="h-96 w-screen" src={aboutBgPic}></img>
             </div>
             <div className="flex mt-24 p-14 mx-96">
