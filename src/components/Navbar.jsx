@@ -1,4 +1,6 @@
 
+//TODO: make navbar responsive "mobile view"
+
 const Navbar = () =>{
     return(
         <navbar className="">
@@ -18,5 +20,6 @@ const Navbar = () =>{
         </navbar>
     )
 }
+
 
 export default Navbar
